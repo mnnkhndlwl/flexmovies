@@ -4,6 +4,9 @@
   background-color: black;
   color: white;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .logo {
   height: 50px;
@@ -20,4 +23,17 @@
   font-weight: 700;
 }
 .title {
+  width: 100%;
+}
+.list {
+  list-style-type: none;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.listItem {
+}
+.lisitem {
+  color: white;
 }
