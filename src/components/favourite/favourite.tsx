@@ -10,5 +10,9 @@ export interface FavouriteProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/configuration-for-favourites-and-templates
  */
 export const Favourite = ({ className }: FavouriteProps) => {
-    return <div className={classNames(styles.root, className)}>Favourite</div>;
+    return (
+        <div className={classNames(styles.root, className)}>
+            <h1 />
+        </div>
+    );
 };

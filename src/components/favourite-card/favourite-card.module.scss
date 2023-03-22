@@ -1,0 +1,27 @@
+.root {
+}
+.fimg {
+  width: 100%;
+  height: 98%;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.delete {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  display: block;
+  align-items: center;
+  align-content: center;
+}
+.deleicon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
